@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "O0YEc8LWkmw=",
+  "dgSpecHash": "kaUQJQO3NZU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HomePC\\source\\repos\\esklep-microservices\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+  "projectFilePath": "C:\\Users\\HomePC\\source\\repos\\e-sklep-microservices\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HomePC\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\HomePC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
+    "C:\\Users\\HomePC\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\HomePC\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\HomePC\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
     "C:\\Users\\HomePC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\HomePC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
