@@ -1,0 +1,1 @@
+C:\Users\HomePC\source\repos\e-sklep-microservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
