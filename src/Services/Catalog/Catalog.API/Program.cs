@@ -1,5 +1,3 @@
-using BuildingBlocks.Behaviours;
-
 var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly;
 
@@ -18,8 +16,12 @@ builder.Services.AddMarten(options =>
 })
     .UseLightweightSessions();
 
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 var app = builder.Build();
 
 app.MapCarter();
+
+app.UseExceptionHandler(options => { });
 
 app.Run();

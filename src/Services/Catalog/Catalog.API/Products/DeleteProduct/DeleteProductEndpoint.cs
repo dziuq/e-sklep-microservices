@@ -1,5 +1,4 @@
-﻿g
-using Catalog.API.Products.GetProductsByCategory;
+﻿using Catalog.API.Products.GetProductsByCategory;
 
 namespace Catalog.API.Products.DeleteProduct
 {
