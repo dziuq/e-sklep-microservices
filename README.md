@@ -58,10 +58,3 @@ Projekt oparty jest na zestawie sprawdzonych podejść:
 - Minimal API + Marten + MediatR
 
 ---
-
-## 🐳 Uruchomienie lokalne (Docker)
-
-1. **Klonuj repozytorium**  
-   ```bash
-   git clone https://github.com/dziuq/e-sklep-microservices.git
-   cd e-sklep-microservices
