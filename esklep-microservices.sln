@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E594
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{407B8F94-9D64-48C6-B374-35192382DEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.Api", "src\Services\Basket\Bakset.Api\Basket.Api.csproj", "{1EF2CBA6-0194-4461-9274-AA28A7537E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.Api", "src\Services\Basket\Basket.Api\Basket.Api.csproj", "{1EF2CBA6-0194-4461-9274-AA28A7537E25}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DC043340-3D41-4817-9328-64B8534E51EF} = {DC043340-3D41-4817-9328-64B8534E51EF}
 	EndProjectSection
