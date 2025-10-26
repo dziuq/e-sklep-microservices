@@ -18,6 +18,7 @@ namespace Ordering.Infrastructure
 
             services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptors>();
             services.AddScoped<ISaveChangesInterceptor, DispatchDomainEventInterceptor>();
+            
 
             services.AddDbContext<AppDbContext>((sp, opt) =>
             {
