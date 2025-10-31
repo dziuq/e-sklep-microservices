@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
