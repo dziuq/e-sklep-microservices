@@ -5,6 +5,8 @@ Projekt sklepu internetowego rozwijanego w architekturze mikroserwisowej z wykor
 Obecnie zaimplementowane mikroserwisy:
 - **Catalog** – zarządzanie produktami,
 - **Basket** – zarządzanie koszykiem użytkownika.
+- **Discount** – zarządzanie systemem rabatów.
+- **Ordering** – zarządzanie zamówieniami.
 
 ---
 
@@ -38,7 +40,8 @@ Projekt oparty jest na zestawie sprawdzonych podejść:
 | **Mapster** | Automatyczne mapowanie DTO ↔ encje domenowe |
 | **Docker** | Konteneryzacja środowiska |
 | **PostgreSQL** | Baza danych dla mikroserwisów |
-
+| **MSSQL** | Baza danych dla mikroserwisów |
+| **RabbitMQ** | Broker komunikatów systemowych |
 ---
 
 ## 🧩 Struktura serwisów
@@ -57,4 +60,19 @@ Projekt oparty jest na zestawie sprawdzonych podejść:
 - CQRS + Vertical Slice
 - Minimal API + Marten + MediatR
 
+### 🧠 Ordering Service
+- Realizacja procesu zamówienia
+- Tworzenie i zarządzanie zamówieniami klientów
+- Obsługa statusów zamówienia (utworzone, opłacone, anulowane itp.)
+- Architektura zgodna z DDD: podział na API / Application / Domain / Infrastructure
+- Endpointy: Minimal API (Carter)
+- Operacje CRUD na zamówieniach 
+- Komendy, Eventy oraz Queries wraz z ich handler'ami
+- CQRS z Mediatr
+- Walidacja: FluentValidation
+- Endpointy: Minimal API (Carter)
+
+### 🏷️ Discount Service
+- Serwis do tworzenia, pozyskiwania oraz usuwania rabatów
+- Szybsza omunikacja dzięki gRPC
 ---
